@@ -4,6 +4,7 @@ import {maxWidth} from '../components/theme'
 import { Select } from 'antd';
 import {MdFormatListNumbered} from 'react-icons/md'
 import 'antd/dist/antd.css';
+import Link from 'next/link';
 
 function HomeMain() {
 
@@ -38,21 +39,41 @@ const  handleChange=(value)=> {
                 </div>
                 <div className="col-md-9">
                     <div className="row">
-                        <div  className="col-md-4">
-                            <div className="CardPar">
-                                <div className="imgPar">
-                                 <img className='image' src="/eng.png" />
-                                 <span className="countryImg">  <img src="/usa.svg" /></span>
-                                </div>
-                                <div className="title">IELTS words 1</div>
-                                <div className="desc">
-                                    {/* <MdFormatListNumbered /> */}
-                                    <span className="first">Үгийн тоо: </span>
-                                    <span className="second">2000</span>
+                        <Link href="/course">
+                            <div  className="col-md-4">
+                                <div className="CardPar">
+                                    <div className="imgPar">
+                                    <img className='image' src="/eng.png" />
+                                    <span className="countryImg">  <img src="/usa.svg" /></span>
+                                    </div>
+                                    <div className="title">IELTS words 1</div>
+                                    <div className="desc">
+                                        {/* <MdFormatListNumbered /> */}
+                                        <span className="first">Үгийн тоо: </span>
+                                        <span className="second">2000</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
 
+
+                        <Link href="/course">
+                            <div  className="col-md-4">
+                                <div className="CardPar">
+                                    <div className="imgPar">
+                                    <img className='image' src="/eng.png" />
+                                    <span className="countryImg">  <img src="/usa.svg" /></span>
+                                    </div>
+                                    <div className="title">IELTS words 2</div>
+                                    <div className="desc">
+                                        {/* <MdFormatListNumbered /> */}
+                                        <span className="first">Үгийн тоо: </span>
+                                        <span className="second">1800</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </Link>
+                      
                     </div>
                 </div>
             </div>
@@ -66,11 +87,16 @@ const HomeComp = styled.div`
     margin-top:30px;
     max-width: ${maxWidth};
     .CardPar{
+        cursor:pointer;
         margin-bottom:20px;
         border-radius:5px;
         background-color:white;
         padding:10px 10px;
         border:1px solid rgba(0,0,0,0.2);
+        transition:box-shadow 0.3s ease;
+        &:hover{
+            box-shadow:1px 1px 10px -4px #26344F;
+        }
         .imgPar{
             position: relative;
             img{

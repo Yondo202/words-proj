@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {color,color2, maxWidth} from '../theme'
+import {color,fontFamily2, fontFamily, maxWidth} from '../theme'
 
 function ExactWords() {
     console.log(words, " word")
@@ -52,7 +52,7 @@ function ExactWords() {
 export default ExactWords
 
 const ItemComponents = styled.div`
-    
+    font-family:${fontFamily};
     .wordsAll{
         padding-bottom:80px;
         margin-top:10px;

@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import { color, color2,maxWidth} from '../components/theme'
+import { color, fontFamily,maxWidth} from '../components/theme'
 import styled from 'styled-components'
 import {CgProfile} from 'react-icons/cg'
 
@@ -40,6 +40,7 @@ export default Menu
 const MenuComp = styled.div`
     background-color:${color};
     // background-color:red;
+    font-family:${fontFamily};
     .headerPar{
         height:56px;
         max-width: ${maxWidth};
@@ -61,6 +62,7 @@ const MenuComp = styled.div`
             justify-content:space-between;
             .menus{
                 span{
+                    cursor:pointer;
                     font-weight:600;
                     margin-left:15px;
                 }

@@ -1,7 +1,8 @@
 import React from 'react'
 import styled from 'styled-components'
 import {WiDaySunny} from 'react-icons/wi'
-import {color,color2, maxWidth} from '../theme'
+import {color,color2, fontFamily, maxWidth} from '../theme'
+import Link from 'next/link';
 
 
 
@@ -32,13 +33,128 @@ function Main() {
                 <div className="row">
                     <div className="col-md-10">
                         <div className="row">
-                            <div className="col-md-2 col-sm-2">
-                                <div className="Cards">
-                                    <div className="number">1</div>     
-                                    <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
-                                    <div className="textPAr"> 0 - 20</div>  
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
                                 </div>
-                            </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+                            <Link href="/course/12" >
+                                <div  className="col-md-2 col-sm-2">
+                                    <div className="Cards">
+                                        <div className="number">1</div>     
+                                        <div className="childPAr"><WiDaySunny /><span>Өдөр</span></div>
+                                        <div className="textPAr"> 0 - 20</div>  
+                                    </div>
+                                </div>
+                            </Link>
+                        
+
+                            
                         </div>
                     </div>
 
@@ -59,6 +175,7 @@ const Components = styled.div`
     .contentPAr{
         margin-top:30px;
         max-width:${maxWidth};
+        font-family:${fontFamily};
         .Cards{
             margin-bottom:15px;
             padding:8px 8px;

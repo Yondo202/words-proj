@@ -17,8 +17,8 @@ export default function Home() {
       </Head>
 
       <Menu />
-      <MainCourse />
-      {/* <ExactWords /> */}
+      {/* <MainCourse /> */}
+      <ExactWords />
     </div>
   )
 }
